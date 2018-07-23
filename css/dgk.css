@@ -60,50 +60,71 @@ body{
   	-webkit-transform: translate(-50%,-50%);
   	transform: translate(-50%,-50%);
 }
-
+header{
+	margin: auto auto 0;
+}
+	
 #h_icon{
-	float:left;
+	float: left;
 	margin: auto 5%;
 }
 #h_menu{
-	float:right;
-	margin: auto 4%;
-	color: #999999;
+	float: right;
+	margin: 0.5% 4% -0.5%;
+	color: #999;
 	text-decoration: none;
 	width: 300px;
+}
+#for_pc_nav{
+	background-color: rgba(255, 255, 255, 0.65);
+}
+	nav{
+		margin: 10px auto 0px;
+	}
+	.kotei_pc{
+		margin: 0;
+		text-align: center;
+		position: fixed;
+  		top: 0px;
+		left: 0px;
+		height: 70px;
+		width: 100%;
+	}
+#for_mob_menu{
+	display: none;
 }
 	
 #h_icon ime{
 	margin: auto 1%;
 }
 #h_menu img{
-	margin: auto 1.5%;
+	margin: 0.5% 1.5%;
 }
 
+section{
+	padding: 50px auto auto;
+}
 
 h2{
 	padding: 100% auto;
 }
 #b_about{
-	margin: 10% auto;
+	margin: 2% auto;
+	padding: 10.5% 0% 0%;
 	font-size: 16px;
 	line-height: 34px;
 }
 
-h3{
-	margin: 1% auto;
-}
 #b_theme{
-	margin: 10% auto;
+	margin: 2% auto;
+	padding: 10.5% 0% 0%;
 	font-size: 16px;
 	line-height: 34px;
 }
 
-h4{
-	margin: 1% auto;
-}
 #b_info{
-	margin: 10% auto;
+	margin: 2% auto;
+	padding: 10.5% 0% 0%;
 	font-size: 16px;
 	line-height: 34px;
 	width: 700px;
@@ -138,6 +159,12 @@ h4{
 	margin: 5% auto;
 	padding: 0 10.4px;
 }
+	.info_contents_b hr{
+		margin-left: 0;
+		border-width: 0px;
+		height: 2px;
+		background-color: #333;
+	}
 .info_contents_2{
 	display: inline-block;
 	width: 550px;
@@ -204,9 +231,43 @@ body{
 }
 
 header{
+	position: relative;
+}
+#for_pc_nav{
+	display: none;
 }
 nav{
-	display: none;	
+}
+#for_mob_menu{
+	position: fixed;
+	top: 10%;
+	left: 90%;
+	-ms-transform: translate(-50%,-50%);
+  	-webkit-transform: translate(-50%,-50%);
+  	transform: translate(-50%,-50%);
+}
+	#for_mob_menu img{
+		width: 90%;
+	}
+#mob_menu{
+	background: rgba(234, 234, 234, 0.95);
+  	padding: 50px 15px 10px 15px;
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+}
+	.mob_nav li{
+		list-style-type: none;
+		margin: 1%;
+		text-decoration: none;
+	}
+.mob_nav{
+	text-align: center;
+	color: #222;
+	font-size: 20px;
+	z-index:100;
 }
 
 
@@ -215,6 +276,7 @@ h2{
 }
 #b_about{
 	margin: 3% auto;
+	padding: 3% 0% 0%;
 	font-size: 95%;
 	line-height: 190%;
 	width: 85%;
@@ -224,7 +286,8 @@ h3{
 	margin: 1% auto;
 }
 #b_theme{
-	margin: 10% auto;
+	margin: 9% auto;
+	padding: 3% 0% 0%;
 	font-size: 95%;
 	line-height: 190%;
 	width: 85%;
@@ -234,8 +297,8 @@ h4{
 	margin: 1% auto;
 }
 #b_info{
-	margin: 10% auto;
-	padding: 0 5%;
+	margin: 9% auto;
+	padding: 3% 5% 0%;
 	font-size: 95%;
 	line-height: 190%;
 	width: 85%;
@@ -257,6 +320,12 @@ h4{
 .info_contents_b{
 	text-align: left;
 }
+	.info_contents_b hr{
+		margin-left: 0;
+		border-width: 0px;
+		height: 2px;
+		background-color: #333;
+	}
 
 
 footer{
