@@ -8,12 +8,15 @@ body{
 	sans-serif;
 }
 	
-	#for_mobile{
+	.for_mobile{
 		display: none;
 	}
-	#for_pc hr{
-		width: 100%;
+	.for_pc hr{
+		width: 100vw;
 		font-size: 5px;
+	}
+	.for_pc img{
+		width: 100%;
 	}
 
 .wrap{
@@ -66,29 +69,37 @@ header{
 	
 #h_icon{
 	float: left;
-	margin: auto 5%;
+	margin: 0px 5%;
 }
+	#h_icon img{
+		width: 45px;
+	}
 #h_menu{
 	float: right;
-	margin: 0.5% 4% -0.5%;
+	margin: 13px 4% 2px;
 	color: #999;
 	text-decoration: none;
 	width: 300px;
 }
 #for_pc_nav{
 	background-color: rgba(255, 255, 255, 0.65);
+	padding: 0px 0px 7px;
+	height: 68px;
 }
 	nav{
-		margin: 10px auto 0px;
+		margin: 8px auto 1px;
+		height: 50px;
 	}
 	.kotei_pc{
-		margin: 0;
-		text-align: center;
 		position: fixed;
   		top: 0px;
 		left: 0px;
-		height: 70px;
+		height: 65px;
 		width: 100%;
+	}
+	.space{
+		width: 100%;
+		height: 83px;
 	}
 #for_mob_menu{
 	display: none;
@@ -160,6 +171,7 @@ h2{
 	padding: 0 10.4px;
 }
 	.info_contents_b hr{
+		width: 95%;
 		margin-left: 0;
 		border-width: 0px;
 		height: 2px;
@@ -218,8 +230,11 @@ body{
 	sans-serif;
 }
 	
-	#for_pc{
+	.for_pc{
 		display: none;
+	}
+	.for_mobile img{
+		width: 100%;
 	}
 
 .wrap{
