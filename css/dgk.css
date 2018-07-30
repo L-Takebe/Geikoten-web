@@ -293,26 +293,21 @@ nav{
 .mob_nav a :visited{
 	color: #222;
 }
-	#mob_nav1a img{
+.mob_nav li{
+    text-align: center;
+}
+	.mob_nav_1a img{
 		width: 40%;
+        margin: 5% auto;
+
 	}
-	#mob_nav1b img{
+	.mob_nav_1b img{
 		width: 70%;
+		margin: 5% auto;
 	}
-	#mob_nav2 img{
+	.mob_nav_2 img{
 		width: 70%;
-	}
-	#mob_nav1a li{
-		margin: 10% auto;
-		text-align: center;
-	}
-	#mob_nav1b li{
-		margin: 10% auto;
-		text-align: center;
-	}
-	#mob_nav2 li{
 		margin: 1% auto;
-		text-align: center;
 	}
 
 
