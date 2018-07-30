@@ -15,7 +15,7 @@ jQuery(function() {
         }
     }
     jQuery(window).scroll(floatMenu);
-    jQuery('body').bind('touchmove', floatMenu);
+//    jQuery('body').bind('touchmove', floatMenu);
 });
 
 	$(function(){
@@ -27,6 +27,7 @@ jQuery(function() {
 });
 	$(function(){
     $("#mob_menu").on("click", function() {
-      $(this).css("display","none");
+		$("#mob_menu").slideToggle(200);
+		$(this).toggleClass("active");
    });
 });
