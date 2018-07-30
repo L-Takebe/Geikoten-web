@@ -15,7 +15,6 @@ jQuery(function() {
         }
     }
     jQuery(window).scroll(floatMenu);
-//    jQuery('body').bind('touchmove', floatMenu);
 });
 
 	$(function(){
