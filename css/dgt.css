@@ -243,7 +243,7 @@ nav{
 	
 .mob_nav{
     margin: 0 auto;
-    width: 45vw;
+    width: 60%;
 	font-size: 20px;
 	text-decoration: none;
 }
@@ -277,7 +277,7 @@ h2{
 #b_about{
 	margin: 3% auto;
 	padding: 3% 0% 0%;
-	font-size: 95%;
+	font-size: 92%;
 	line-height: 190%;
 	width: 85%;
 }
@@ -288,7 +288,7 @@ h3{
 #b_theme{
 	margin: 9% auto;
 	padding: 3% 0% 0%;
-	font-size: 95%;
+	font-size: 92%;
 	line-height: 190%;
 	width: 85%;
 }
@@ -299,7 +299,7 @@ h4{
 #b_info{
 	margin: 9% auto;
 	padding: 3% 5% 0%;
-	font-size: 95%;
+	font-size: 92%;
 	line-height: 190%;
 	width: 85%;
 }
